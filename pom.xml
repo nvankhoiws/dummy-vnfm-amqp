@@ -5,6 +5,12 @@
   <groupId>org.project.openbaton</groupId>
   <artifactId>dummy-vnfm-amqp</artifactId>
   <version>5.2.1-SNAPSHOT</version>
+
+  <properties>
+      <maven.compiler.source>1.8</maven.compiler.source>
+      <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.openbaton</groupId>
